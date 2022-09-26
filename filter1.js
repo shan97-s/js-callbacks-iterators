@@ -19,6 +19,13 @@ let people = [
 
 // (1) Write code that uses the filter function, and the below isCool function to return a list of people who are cool.
 
-let isCool = person => person.coolnessScore > 20
+
+	let isCool = people.filter((persn)=>{return persn.coolnessScore > 20
+
+		// Your code goes here
+		})
+		console.log(isCool[0].name);
+		
 
 // Your code goes here
+

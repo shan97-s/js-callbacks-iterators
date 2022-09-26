@@ -40,3 +40,7 @@ let forecast = [
 // "Monday will have a high of 55F and a low of 53F."
 
 //Your code here
+const map1=forecast.map(func)
+function func(d){
+    return console.log(d.day+" will have a high "+d.high+" and a low of "+d.low);
+}

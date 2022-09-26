@@ -9,6 +9,10 @@ let foods = [
   {name: "Tacos", level: "mostly"},
   {name: "Cottage Cheese", level: "not very"}
 ];
-
+numbers.forEach(cusine => {
+  console.log(cusine.name+" is "+cusine.level+" delicious");
+  
+  
+});
 // your code here
 

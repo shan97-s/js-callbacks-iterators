@@ -7,5 +7,8 @@
 // > "I like ice cream"
  
 let foods = ["pizza", "tacos", "ice cream", "sushi"];
-
+foods.forEach(cusine => {
+    console.log("I like "+cusine);
+    
+});
 // your code here
